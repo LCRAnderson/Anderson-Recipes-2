@@ -1,0 +1,174 @@
+/* CSS Document 
+----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+
+body { 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px; 
+	font-weight: 300; 
+	color: #5E5C5C; 
+	margin 0;
+	padding: 0; 
+}
+
+#page { 
+	max-width: 1200px; 
+	margin: 0 
+	auto; 
+	position: relative; 
+}
+
+
+/* Text
+----------------------------------*/
+
+h1 { 
+	margin: 0 1em 0; 
+	font: 2.8em; 
+	font-weight: 700; 
+}
+
+h2 { 
+	margin: 0 0 .5em 0; 
+	font: 1.6em; 
+	font-weight: 700; 
+	line-height: 1.1em; 
+}
+
+h3 { 
+	margin: 0 0 .5em 0; 
+	font: 1.3em; 
+	font-weight: 700; 
+}
+h4 { 
+	margin: 0 0 1.5em 0; 
+	font: 1em; 
+	font-weight: 700; 
+}
+
+p { margin: 0 0 1em 0; }
+
+a { color: #007eff; }
+a:visited {color: #65b1ff;}
+
+a.btn { 
+	font-size: 1em; 
+	text-decoration: none; 
+	color: #0D0300; 
+	border: 1px solid #0D0300;
+	border-radius: 10%
+	margin: 10px 10px;
+	padding: 5px 5px;
+	transition: background-color .5s; 
+	display: flex;
+	justify-content: center;
+}
+a.btn:hover {
+	background-color: 
+	rgba(0,0,0,.3) 
+}
+
+
+/* Header
+----------------------------------*/
+
+header { height: 200px; background: #4DEE57 url(banner.jpg) no-repeat center bottom; position: relative; }
+
+header a.logo { 
+	z-index: 1;
+	position: absolute; 
+	display: block; width: 166px; height: 100px;
+	background: url(logo.jpg) no-repeat 0 0; background-size: contain;
+	top: 25px; left: 30px;
+ }
+ header a.logo span {display: none;}
+
+ header div.hero { position: absolute; width: 42% top: 130px; left: 15%; }
+ header div.hero { line-height: 3em; margin: 0 0 30px 0; }
+
+
+/* Section - All
+----------------------------------*/
+
+section { padding: 0 30px; }
+section::after { content: ''; display: block; clear: both; }
+
+
+
+/* Section - Add New Recipe
+----------------------------------*/
+
+
+
+
+/* Section - View Recipes
+----------------------------------*/
+
+
+
+
+/* Section - Calendar
+----------------------------------*/
+
+
+
+
+/* Section - Websites
+----------------------------------*/
+
+
+
+
+/* Navigation
+----------------------------------*/
+
+nav > ul { padding-left: 200px; }
+nav > ul > li { float: left; }
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
+
+nav { 
+	background-color: rgba(0,0,0,.65);
+	position: absolute;
+	top: 0px; left: 0px;
+	padding: 50px 0 0 0;
+	width: 100%;
+ }
+
+nav::after { 
+	content:''; 
+	display: block; 
+	clear: both; }
+
+nav ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0px; 
+}
+
+nav ul li:hover { background-color: #2b0306; }
+nav ul li:hover > ul { display: block; }
+
+nav ul li a { 
+ 	display: inline-block;
+ 	color: #fff;
+ 	padding: 10px 20px;
+ 	text-decoration: none;
+ 	width: 125px;
+ 	position: relative;
+ }
+
+nav ul li a:visited { color: #fff; }
+
+nav ul li a:hover { background-color: #6d0911; }
+
+nav ul ul { 
+	position: absolute; 
+	top: 100%; 
+	background-color: #2b0306; 
+	display: none; 
+}
+
+nav ul ul li { position: relative; }
+
+nav ul ul ul { left: 100%; top: 0px; }
