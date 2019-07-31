@@ -8,7 +8,7 @@ body {
 	font-size: 16px; 
 	font-weight: 300; 
 	color: #5E5C5C; 
-	margin 0;
+	margin: 1%;
 	padding: 0; 
 }
 
@@ -71,21 +71,28 @@ a.btn:hover { background-color: rgba(0,0,0,.3) }
 /* Header
 ----------------------------------*/
 
-header { height: 200px; background: url(banner.jpg) no-repeat center bottom; position: relative; }
+header { 
+	height: 300px;
+	width: 100%;
+	background: url(banner.jpg) no-repeat center top; 
+	position: relative; 
+}
 
 header a.logo { 
 	z-index: 1;
 	position: absolute; 
-	display: block; width: 166px; height: 100px;
+	display: block; 
+	width: 166px; 
+	height: 100px;
 	background: url(logo.jpg) no-repeat 0 0; 
 	background-size: contain;
-	top: 25px; 
+	top: 10px; 
 	left: 30px;
  }
 
  header a.logo span {display: none;}
 
- header div.hero { position: absolute; width: 400px; top: 110px; right: 100px; }
+ header div.hero { position: absolute; width: 400px; top: 110px; right: 7.5%; }
  header div.hero { line-height: 3em; margin: 0 0 30px 0; }
 
 
@@ -129,11 +136,11 @@ nav > ul > li { float: left; }
 nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
 
 nav { 
-	background-color: rgba(0,0,0,.65);
+	/*background-color: rgba(0,0,0,.65);*/
 	position: absolute;
 	top: 0px; 
-	left: 0px;
-	right: 30px;
+	left: 1%;
+	right: 5%;
 	padding: 50px 0 0 220px;
 	width: 100%;
  }
@@ -155,7 +162,9 @@ nav ul li:hover > ul { display: block; }
 nav ul li a { 
  	display: inline-block;
  	color: #fff;
+ 	background-color: #000000;
  	padding: 10px 20px;
+ 	margin: 5px;
  	text-decoration: none;
  	width: 125px;
  	position: relative;
