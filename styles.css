@@ -113,8 +113,18 @@ section::after { content: ''; display: block; clear: both; }
 /* Section - View Recipes
 ----------------------------------*/
 
+section.view-recipes { margin-top: 30px; margin-bottom: 30px; padding: 0 }
+section.view-recipes aside { width: 25%; float: left; text-align: center; }
 
+section.view-recipes .content { margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px }
 
+section.view-recipes aside h2 a { color: #000; text-decoration: none; }
+section.view-recipes aside h2 a:hover { text-decoration: underline; }
+
+section.view-recipes aside .content.all { background-image: url(recipes-all.jpg); }
+section.view-recipes aside .content.cuisine { background-image: url(recipes_cuisine.jpg); }
+section.view-recipes aside .content.course { background-image: url(recipes_course.jpg); }
+section.view-recipes aside .content.favourite { background-image: url(recipes_favourite.jpg); }
 
 /* Section - Calendar
 ----------------------------------*/
