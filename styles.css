@@ -118,7 +118,7 @@ section.view-recipes { margin-top: 30px; margin-bottom: 30px; padding: 0 }
 section.view-recipes aside { width: 25%; float: left; text-align: center; }
 
 section.view-recipes .content { 
-	margin: 1%; 
+	margin: 5%; 
 	background: no-repeat center top; 
 	background-size: 400px 400px; 
 	padding-top: 85px 
@@ -127,10 +127,10 @@ section.view-recipes .content {
 section.view-recipes aside h2 a { color: #fff; text-decoration: none; }
 section.view-recipes aside h2 a:hover { text-decoration: underline; }
 
-section.view-recipes aside .content.all { background-image: url(recipes-all.jpg); padding: 0 0 300px 0; }
-section.view-recipes aside .content.cuisine { background-image: url(recipes-cuisine.jpg);  padding: 0 0 300px 0; }
-section.view-recipes aside .content.course { background-image: url(recipes-course.jpg);  padding: 0 0 300px 0; }
-section.view-recipes aside .content.favourite { background-image: url(recipes-favourite.jpg);  padding: 0 0 300px 0; }
+section.view-recipes aside .content.all { background-image: url(recipes-all.jpg); padding: 0 0 300px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+section.view-recipes aside .content.cuisine { background-image: url(recipes-cuisine.jpg);  padding: 0 0 300px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+section.view-recipes aside .content.course { background-image: url(recipes-course.jpg);  padding: 0 0 300px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+section.view-recipes aside .content.favourite { background-image: url(recipes-favourite.jpg);  padding: 0 0 300px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 /* Section - Calendar
 ----------------------------------*/
@@ -140,7 +140,35 @@ section.view-recipes aside .content.favourite { background-image: url(recipes-fa
 
 /* Section - Websites
 ----------------------------------*/
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive*/
 
+section.favourite-websites { margin-top: 30px; margin-bottom: 30px; padding: 0 }
+section.favourite-websites aside { width: 100%; text-align: left; }
+
+section.favourite-websites .content { 
+	margin: 1%; 
+	padding-top: 10px
+	/*background: no-repeat center top; */
+	/*background-size: 200px 200px; */
+	 
+}
+
+section.favourite-websites .image img {
+	width: 30%;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+section.favourite-websites aside h2 a { color: #000; text-decoration: none; }
+section.favourite-websites aside h2 a:hover { text-decoration: underline; }
+
+
+
+/*section.favourite-websites aside .content.bbc { background-image: url(bbcgoodfood.jpg); padding: 0 0 100px 0;  }
+section.favourite-websites aside .content.olive { background-image: url(olivemagazine.jpg); padding: 0 0 100px 0; }
+section.favourite-websites aside .content.cookie { background-image: url(cookieandkate.jpg); padding: 0 0 100px 0; }*/
 
 
 /* Navigation
