@@ -163,22 +163,70 @@ section.view-recipes aside .content.favourite {
 }
 section.view-recipes aside .content.favourite:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
+
 /* Section - Calendar
 ----------------------------------*/
+section.calendar { 
+	margin-top: 30px; 
+	margin-bottom: 30px; 
+	padding: 15px;
+	background-color: #DFFDEC;
+	
+}
+section.calendar aside { 
+	width: 14%; 
+	float: left; 
+	text-align: center; 
+	background-color: #DFFDEC;
+}
 
+section.calendar aside .day { 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	margin: 2% 5%;
+	padding: 0;
+	background-color: #fff;
+}
 
+section.calendar aside .date {
+	background: rgba(88, 89, 88, 0.4);
+	border: 1px solid black;
+}
 
+section.calendar aside .breakfast {
+	background: rgba(81, 164, 239, 0.6);
+	border: 1px solid black;
+	text-align: right;
+	margin: 5px 0px 25px 60px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+section.calendar aside .lunch {
+	background: rgba(81, 164, 239, 0.6);
+	border: 1px solid black;
+	text-align: right;
+	margin: 5px 0px 25px 60px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+	section.calendar aside .dinner {
+	background: rgba(81, 164, 239, 0.6);
+	border: 1px solid black;
+	text-align: right;
+	margin: 5px 0px 25px 60px;
+	border-radius: 20px 0px 0px 20px;
+}
 
 /* Section - Websites
 ----------------------------------*/
 
-section.favourite-websites { 
+section.favourite-websites {
 	margin-top: 30px; 
 	margin-bottom: 30px; 
 	padding: 15px;
-	background-color: #38CA47;
+	background-color: #7DFBB4;
 	/*background-image: linear-gradient (#38CA47, #86FF92);*/
 }
+
 section.favourite-websites aside { 
 	width: 33%; 
 	float: left; 
