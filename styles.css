@@ -32,15 +32,17 @@ h1 {
 
 h2 { 
 	margin: 0 0 .5em 0; 
-	font: 1.6em; 
+	font: 1.9em; 
 	font-weight: 700; 
 	line-height: 1.1em; 
+	text-align: center
 }
 
 h3 { 
 	margin: 0 0 .5em 0; 
-	font: 1.3em; 
+	font: 1.6em; 
 	font-weight: 700; 
+	line-height: 1.1em;
 }
 h4 { 
 	margin: 0 0 1.5em 0; 
@@ -129,6 +131,9 @@ section.view-recipes .content {
 section.view-recipes aside h2 a { color: #fff; text-decoration: none; }
 section.view-recipes aside h2 a:hover { text-decoration: underline; }
 
+section.view-recipes aside h3 a { color: #fff; text-decoration: none; }
+section.view-recipes aside h3 a:hover { text-decoration: underline; }
+
 
 section.view-recipes aside .content.all { 
 	background-image: url(recipes-all.jpg); 
@@ -183,6 +188,9 @@ section.favourite-websites aside {
 
 section.favourite-websites aside h2 a { color: #000; text-decoration: none; }
 section.favourite-websites aside h2 a:hover { text-decoration: underline; }
+
+section.favourite-websites aside h3 a { color: #000; text-decoration: none; }
+section.favourite-websites aside h3 a:hover { text-decoration: underline; }
 
 section.favourite-websites aside .card { 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
