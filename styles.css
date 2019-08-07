@@ -1,55 +1,55 @@
-/* CSS Document 
+/* CSS Document
 ----------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
 
-body { 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 16px; 
-	font-weight: 300; 
-	color: #5E5C5C; 
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #5E5C5C;
 	margin: 1%;
-	padding: 0; 
+	padding: 0;
 }
 
-#page { 
-	max-width: 1200px; 
-	margin: 0 
-	auto; 
-	position: relative; 
+#page {
+	max-width: 1200px;
+	margin: 0
+	auto;
+	position: relative;
 }
 
 
 /* Text
 ----------------------------------*/
 
-h1 { 
-	margin: 0 1em 0; 
-	font: 2.8em; 
+h1 {
+	margin: 0 1em 0;
+	font: 2.8em;
 	font-weight: 700;
 	color: #fff
 }
 
-h2 { 
-	margin: 0 0 .5em 0; 
-	font: 1.9em; 
-	font-weight: 700; 
-	line-height: 1.1em; 
+h2 {
+	margin: 0 0 .5em 0;
+	font: 1.9em;
+	font-weight: 700;
+	line-height: 1.1em;
 	text-align: center
 }
 
-h3 { 
-	margin: 0 0 .5em 0; 
-	font: 1.6em; 
-	font-weight: 700; 
+h3 {
+	margin: 0 0 .5em 0;
+	font: 1.6em;
+	font-weight: 700;
 	line-height: 1.1em;
 	color: #fff;
 }
 
-h4 { 
-	margin: .1em 0 .2em 0; 
-	font: 1em; 
-	font-weight: 700; 
+h4 {
+	margin: .1em 0 .2em 0;
+	font: 1em;
+	font-weight: 700;
 	text-align: center;
 	color: #fff;
 }
@@ -59,15 +59,15 @@ p { margin: 0 0 1em 0; }
 a { color: #007eff; }
 a:visited {color: #65b1ff;}
 
-a.btn { 
-	font-size: 1em; 
-	text-decoration: none; 
-	color: #0D0300; 
+a.btn {
+	font-size: 1em;
+	text-decoration: none;
+	color: #0D0300;
 	border: 1px solid #0D0300;
 	border-radius: 10%
 	margin: 10px 10px;
 	padding: 5px 5px;
-	transition: background-color .5s; 
+	transition: background-color .5s;
 	display: flex;
 	justify-content: center;
 }
@@ -77,25 +77,25 @@ a.btn:hover { background-color: rgba(0,0,0,.3) }
 /* Header
 ----------------------------------*/
 
-header { 
+header {
 	height: 300px;
 	width: 100%;
-	background: url(banner.jpg) no-repeat center top; 
+	background: url(banner.jpg) no-repeat center top;
 	background-size: cover;
-	position: relative; 
+	position: relative;
 	padding: 0 30px;
 	margin: 10px;
 }
 
-header a.logo { 
+header a.logo {
 	z-index: 1;
-	position: absolute; 
-	display: block; 
-	width: 166px; 
+	position: absolute;
+	display: block;
+	width: 166px;
 	height: 100px;
-	background: url(logo.jpg) no-repeat 0 0; 
+	background: url(logo.jpg) no-repeat 0 0;
 	background-size: contain;
-	top: 10px; 
+	top: 10px;
 	left: 30px;
  }
 
@@ -125,11 +125,11 @@ section::after { content: ''; display: block; clear: both; }
 section.view-recipes { margin-top: 30px; margin-bottom: 30px; padding: 0 }
 section.view-recipes aside { width: 25%; float: left; text-align: center; }
 
-section.view-recipes .content { 
-	margin: 5%; 
-	background: no-repeat center top; 
-	background-size: 400px 400px; 
-	padding-top: 85px 
+section.view-recipes .content {
+	margin: 5%;
+	background: no-repeat center top;
+	background-size: 400px 400px;
+	padding-top: 85px
 }
 
 section.view-recipes aside h2 a { color: #fff; text-decoration: none; }
@@ -139,53 +139,53 @@ section.view-recipes aside h3 a { color: #fff; text-decoration: none; }
 section.view-recipes aside h3 a:hover { text-decoration: underline; }
 
 
-section.view-recipes aside .content.all { 
-	background-image: url(recipes-all.jpg); 
-	padding: 0 0 300px 0; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+section.view-recipes aside .content.all {
+	background-image: url(recipes-all.jpg);
+	padding: 0 0 300px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.all:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
-section.view-recipes aside .content.cuisine { 
-	background-image: url(recipes-cuisine.jpg);  
-	padding: 0 0 300px 0; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+section.view-recipes aside .content.cuisine {
+	background-image: url(recipes-cuisine.jpg);
+	padding: 0 0 300px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.cuisine:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
-section.view-recipes aside .content.course { 
-	background-image: url(recipes-course.jpg);  
-	padding: 0 0 300px 0; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+section.view-recipes aside .content.course {
+	background-image: url(recipes-course.jpg);
+	padding: 0 0 300px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.course:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
-section.view-recipes aside .content.favourite { 
-	background-image: url(recipes-favourite.jpg);  
-	padding: 0 0 300px 0; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+section.view-recipes aside .content.favourite {
+	background-image: url(recipes-favourite.jpg);
+	padding: 0 0 300px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.favourite:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
 
 /* Section - Calendar
 ----------------------------------*/
-section.calendar { 
-	margin-top: 30px; 
-	margin-bottom: 30px; 
+section.calendar {
+	margin-top: 30px;
+	margin-bottom: 30px;
 	padding: 15px;
 	background-color: #DFFDEC;
-	
+
 }
-section.calendar aside { 
-	width: 14%; 
-	float: left; 
-	text-align: center; 
+section.calendar aside {
+	width: 14%;
+	float: left;
+	text-align: center;
 	background-color: #DFFDEC;
 }
 
-section.calendar aside .day { 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+section.calendar aside .day {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 2% 5%;
 	/*background-color: #fff;*/
 	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url(daybg.jpg);
@@ -225,17 +225,17 @@ section.calendar aside .lunch {
 ----------------------------------*/
 
 section.favourite-websites {
-	margin-top: 30px; 
-	margin-bottom: 30px; 
+	margin-top: 30px;
+	margin-bottom: 30px;
 	padding: 15px;
 	background-color: #7DFBB4;
 	/*background-image: linear-gradient (#38CA47, #86FF92);*/
 }
 
-section.favourite-websites aside { 
-	width: 33%; 
-	float: left; 
-	text-align: center; 
+section.favourite-websites aside {
+	width: 33%;
+	float: left;
+	text-align: center;
 	background-color: #fff;
 }
 
@@ -245,8 +245,8 @@ section.favourite-websites aside h2 a:hover { text-decoration: underline; }
 section.favourite-websites aside h3 a { color: #000; text-decoration: none; }
 section.favourite-websites aside h3 a:hover { text-decoration: underline; }
 
-section.favourite-websites aside .card { 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+section.favourite-websites aside .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 2% 5%;
 	padding: 0;
 }
@@ -260,8 +260,8 @@ section.favourite-websites aside .container { padding: 2px 16px; }
 section.favourite-websites a.btn { margin-top: 680px; }
 
 
-/*section.favourite-websites .content { 
-	margin: 1%; 
+/*section.favourite-websites .content {
+	margin: 1%;
 	padding-top: 10px
 	/*background: no-repeat center top;
 	/*background-size: 200px 200px;
@@ -288,31 +288,31 @@ nav > ul { padding-left: 200px; }
 nav > ul > li { float: left; }
 nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
 
-nav { 
+nav {
 	/*background-color: rgba(0,0,0,.65);*/
 	position: absolute;
-	top: 0px; 
+	top: 0px;
 	left: 1%;
 	right: 5%;
 	padding: 50px 0 0 220px;
 	width: 100%;
  }
 
-nav::after { 
-	content:''; 
-	display: block; 
+nav::after {
+	content:'';
+	display: block;
 	clear: both; }
 
-nav ul { 
-	list-style: none; 
-	margin: 0; 
-	padding: 0px; 
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
 }
 
 nav ul li:hover { background-color: #2b0306; }
 nav ul li:hover > ul { display: block; }
 
-nav ul li a { 
+nav ul li a {
  	display: inline-block;
  	color: #fff;
  	background-color: #000000;
@@ -327,11 +327,11 @@ nav ul li a:visited { color: #fff; }
 
 nav ul li a:hover { background-color: #6d0911; }
 
-nav ul ul { 
-	position: absolute; 
-	top: 100%; 
-	background-color: #2b0306; 
-	display: none; 
+nav ul ul {
+	position: absolute;
+	top: 100%;
+	background-color: #2b0306;
+	display: none;
 }
 
 nav ul ul li { position: relative; }
