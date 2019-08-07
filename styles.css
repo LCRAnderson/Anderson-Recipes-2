@@ -43,11 +43,15 @@ h3 {
 	font: 1.6em; 
 	font-weight: 700; 
 	line-height: 1.1em;
+	color: #fff;
 }
+
 h4 { 
-	margin: 0 0 1.5em 0; 
+	margin: .1em 0 .2em 0; 
 	font: 1em; 
 	font-weight: 700; 
+	text-align: center;
+	color: #fff;
 }
 
 p { margin: 0 0 1em 0; }
@@ -183,12 +187,13 @@ section.calendar aside {
 section.calendar aside .day { 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	margin: 2% 5%;
-	padding: 0;
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url(daybg.jpg);
+	padding: 0 0 2px 0;
 }
 
 section.calendar aside .date {
-	background: rgba(88, 89, 88, 0.4);
+	background: rgba(88, 89, 88, 0.8);
 	border: 1px solid black;
 }
 
@@ -196,7 +201,7 @@ section.calendar aside .breakfast {
 	background: rgba(81, 164, 239, 0.6);
 	border: 1px solid black;
 	text-align: right;
-	margin: 5px 0px 25px 60px;
+	margin: 10px 0px 10px 60px;
 	border-radius: 20px 0px 0px 20px;
 }
 
@@ -204,7 +209,7 @@ section.calendar aside .lunch {
 	background: rgba(81, 164, 239, 0.6);
 	border: 1px solid black;
 	text-align: right;
-	margin: 5px 0px 25px 60px;
+	margin: 5px 0px 10px 60px;
 	border-radius: 20px 0px 0px 20px;
 }
 
@@ -212,7 +217,7 @@ section.calendar aside .lunch {
 	background: rgba(81, 164, 239, 0.6);
 	border: 1px solid black;
 	text-align: right;
-	margin: 5px 0px 25px 60px;
+	margin: 5px 0px 10px 60px;
 	border-radius: 20px 0px 0px 20px;
 }
 
