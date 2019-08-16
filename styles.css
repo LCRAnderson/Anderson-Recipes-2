@@ -122,8 +122,18 @@ section::after { content: ''; display: block; clear: both; }
 /* Section - View Recipes
 ----------------------------------*/
 
-section.view-recipes { margin-top: 30px; margin-bottom: 30px; padding: 0 }
-section.view-recipes aside { width: 25%; float: left; text-align: center; }
+section.view-recipes { 
+	background-color: #DFFDEC;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+section.view-recipes aside { 
+	width: 25%; 
+	float: left; 
+	text-align: center; 
+}
 
 section.view-recipes .content {
 	margin: 5%;
@@ -141,6 +151,7 @@ section.view-recipes aside h3 a:hover { text-decoration: underline; }
 
 section.view-recipes aside .content.all {
 	background-image: url(recipes-all.jpg);
+	background-size: cover;
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -148,6 +159,7 @@ section.view-recipes aside .content.all:hover { box-shadow: 0 8px 16px 0 rgba(0,
 
 section.view-recipes aside .content.cuisine {
 	background-image: url(recipes-cuisine.jpg);
+	background-size: cover;
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -155,6 +167,7 @@ section.view-recipes aside .content.cuisine:hover { box-shadow: 0 8px 16px 0 rgb
 
 section.view-recipes aside .content.course {
 	background-image: url(recipes-course.jpg);
+	background-size: cover;
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -162,6 +175,7 @@ section.view-recipes aside .content.course:hover { box-shadow: 0 8px 16px 0 rgba
 
 section.view-recipes aside .content.favourite {
 	background-image: url(recipes-favourite.jpg);
+	background-size: cover;
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -194,12 +208,12 @@ section.calendar aside .day {
 
 section.calendar aside .date {
 	background: rgba(88, 89, 88, 0.8);
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 section.calendar aside .breakfast {
 	background: rgba(81, 164, 239, 0.6);
-	border: 1px solid black;
+	/*border: 1px solid black;8?
 	/*text-align: right;*/
 	margin: 10px 0px 10px 60px;
 	border-radius: 20px 0px 0px 20px;
@@ -207,7 +221,7 @@ section.calendar aside .breakfast {
 
 section.calendar aside .lunch {
 	background: rgba(81, 164, 239, 0.6);
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	text-align: right;
 	margin: 5px 0px 10px 60px;
 	border-radius: 20px 0px 0px 20px;
@@ -215,7 +229,7 @@ section.calendar aside .lunch {
 
 	section.calendar aside .dinner {
 	background: rgba(81, 164, 239, 0.6);
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	text-align: right;
 	margin: 5px 0px 10px 60px;
 	border-radius: 20px 0px 0px 20px;
@@ -242,7 +256,7 @@ section.calendar aside .lunch {
   color: #000;
   text-align: center;
   border-radius: 6px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 5px 0;
 
   /* Position the tooltip */
@@ -313,6 +327,56 @@ section.favourite-websites aside .content.olive { background-image: url(olivemag
 section.favourite-websites aside .content.cookie { background-image: url(cookieandkate.jpg); padding: 0 0 100px 0; }*/
 
 
+/* Section - All Recipes
+----------------------------------*/
+
+section.all-recipes .recipe-container {
+	background-color: #DFFDEC;
+	width: 100%;
+	height: 300px;
+	padding:10px;
+	margin: 10px;
+}
+
+section.all-recipes img {
+	float: left;
+	width: 230px;
+	height: 300px;
+	border-radius: 4px;
+	box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+section.all-recipes .recipe-content {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+section.all-recipes .recipe-content h3 {
+	position: relative;
+	left: 30px;
+	top: 0px;
+	color: #000;
+	}
+
+section.all-recipes .recipe-content h4 {
+	position: relative;
+	left: 30px;
+	top: 0px;
+	color: #000;
+	text-align: left;
+	margin: 5px;
+	padding: 5px;
+	}
+
+section.all-recipes .primary-tags {
+	display: inline-block;
+}
+
+
+section.all-recipes .secondary-tags {
+
+}
 
 
 /* Navigation
@@ -371,3 +435,8 @@ nav ul ul {
 nav ul ul li { position: relative; }
 
 nav ul ul ul { left: 100%; top: 0px; }
+
+
+
+
+
