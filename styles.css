@@ -235,7 +235,7 @@ section.calendar aside .lunch {
 	border-radius: 20px 0px 0px 20px;
 }
 
-/* Section - Calendar
+/* Section - Calendar 2
 ----------------------------------*/
 
 .tooltip {
@@ -346,37 +346,75 @@ section.all-recipes img {
 	box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 section.all-recipes .recipe-content {
-	position: relative;
-	left: 0;
+	left: 250px;
 	top: 0;
-}
-
-section.all-recipes .recipe-content h3 {
-	position: relative;
-	left: 30px;
-	top: 0px;
-	color: #000;
-	}
-
-section.all-recipes .recipe-content h4 {
-	position: relative;
-	left: 30px;
-	top: 0px;
 	color: #000;
 	text-align: left;
 	margin: 5px;
-	padding: 5px;
+	padding: 7px;
+	background-color: #1fab89;
+	height: 280px;
 	}
 
-section.all-recipes .primary-tags {
+section.all-recipes .recipe-content h3 {
+	position: relative;
+	left: 40px;
+	top: 0px;
+	color: #000;
+	font-size: 2em;
+	padding: 10px;
+}
+
+section.all-recipes .primary-tags h4 {
+	position: relative;
+	left: 40px;
+	top: 0px;
 	display: inline-block;
+	position: relative;
+	margin: 5px;
+	line-height: 40px;
+}
+
+section.all-recipes .secondary-tags h4 {
+	position: relative;
+	left: 40px;
+	top: 0px;
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+	line-height: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 2px 5px;
+}
+
+section.all-recipes .recipe-content img {
+	position: relative;
+	left: 40px;
+	top: 0px;
+	height: 30px;
+	width: 30px;
+	margin: 10px 20px 0 0;
+}
+
+section.all-recipes .primary-tags {
+	background-color: #c6f1d6;
 }
 
 
 section.all-recipes .secondary-tags {
+	background-color: #a4d1c8;
+}
+
+section.all-recipes .cuisine-tag {
+	background-color: #a4d1c8;
+	left: 0px;
+	top: 0px;
 
 }
+
 
 
 /* Navigation
