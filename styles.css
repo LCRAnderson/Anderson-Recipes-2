@@ -340,10 +340,11 @@ section.all-recipes .recipe-container {
 
 section.all-recipes img {
 	float: left;
-	width: 230px;
+	width: auto;
 	height: 300px;
 	border-radius: 4px;
 	box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
+	overflow: hidden;
 }
 
 
@@ -360,21 +361,38 @@ section.all-recipes .recipe-content {
 
 section.all-recipes .recipe-content h3 {
 	position: relative;
-	left: 40px;
+	left: 60px;
 	top: 0px;
 	color: #000;
 	font-size: 2em;
 	padding: 10px;
 }
 
+section.all-recipes .recipe-content img {
+	position: relative;
+	left: 55px;
+	top: 10px;
+	height: 40px;
+	width: 40px;
+	margin: 10px 20px 0 0;
+}
+
+section.all-recipes .primary-tags {
+	background-color: #a4d1c8;
+}
+
 section.all-recipes .primary-tags h4 {
 	position: relative;
-	left: 40px;
+	left: 30px;
 	top: 0px;
 	display: inline-block;
 	position: relative;
-	margin: 5px;
+	margin: 15px 25px;
 	line-height: 40px;
+}
+
+section.all-recipes .secondary-tags {
+	background-color: #41aaa8;
 }
 
 section.all-recipes .secondary-tags h4 {
@@ -383,39 +401,27 @@ section.all-recipes .secondary-tags h4 {
 	top: 0px;
 	display: inline-block;
 	position: relative;
-	margin: 5px;
+	margin: 15px 10px;
 	line-height: 40px;
 	border: 1px solid black;
 	border-radius: 4px;
 	padding: 2px 5px;
 }
 
-section.all-recipes .recipe-content img {
-	position: relative;
-	left: 40px;
-	top: 0px;
-	height: 30px;
-	width: 30px;
-	margin: 10px 20px 0 0;
-}
-
-section.all-recipes .primary-tags {
-	background-color: #c6f1d6;
-}
-
-
-section.all-recipes .secondary-tags {
-	background-color: #a4d1c8;
-}
-
 section.all-recipes .cuisine-tag {
-	background-color: #a4d1c8;
-	left: 0px;
-	top: 0px;
-
+	float: left;
 }
 
+section.all-recipes .course-tag {
+	float: left;
+}
 
+section.all-recipes .actions img {
+	top: 0px;
+	left: 65%;
+	height: 60px;
+	width: 60px;
+}
 
 /* Navigation
 ----------------------------------*/
