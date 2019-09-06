@@ -355,7 +355,7 @@ section.all-recipes .recipe-content {
 	text-align: left;
 	margin: 5px;
 	padding: 7px;
-	background-color: #1fab89;
+	/*background-color: #1fab89;*/
 	height: 280px;
 	}
 
@@ -372,40 +372,44 @@ section.all-recipes .recipe-content img {
 	position: relative;
 	left: 55px;
 	top: 10px;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	margin: 10px 20px 0 0;
 }
 
 section.all-recipes .primary-tags {
-	background-color: #a4d1c8;
+	/*background-color: #a4d1c8;*/
+	padding: 10px;
 }
 
 section.all-recipes .primary-tags h4 {
 	position: relative;
 	left: 30px;
-	top: 0px;
+	top: 10px;
 	display: inline-block;
 	position: relative;
 	margin: 15px 25px;
 	line-height: 40px;
+	color: #000;
 }
 
 section.all-recipes .secondary-tags {
-	background-color: #41aaa8;
+	/*background-color: #41aaa8;*/
+	padding: 10px;
 }
 
 section.all-recipes .secondary-tags h4 {
 	position: relative;
 	left: 40px;
-	top: 0px;
+	top: 9px;
 	display: inline-block;
 	position: relative;
 	margin: 15px 10px;
 	line-height: 40px;
-	border: 1px solid black;
+	border: 0.8px solid black;
 	border-radius: 4px;
 	padding: 2px 5px;
+	color: #000;
 }
 
 section.all-recipes .cuisine-tag {
@@ -414,6 +418,12 @@ section.all-recipes .cuisine-tag {
 
 section.all-recipes .course-tag {
 	float: left;
+}
+
+section.all-recipes .actions {
+	position: absolute;
+	right: 13%;
+	top: 78%;
 }
 
 section.all-recipes .actions img {
