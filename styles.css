@@ -154,9 +154,7 @@ section.view-recipes .content {
 
 section.view-recipes aside h3 a {
 	font-size: 25px;
-	background-color: #3D332B;
 	opacity: 0.7;
-	/*padding: 0px 45px;*/
 	width: 200px;
 	margin: 0;
 }
@@ -170,32 +168,32 @@ section.view-recipes aside h3 a:hover { text-decoration: underline; }
 
 
 section.view-recipes aside .content.all {
+	background: linear-gradient(to top, transparent, #73626B), url(recipes-all.jpg);
 	background-size: cover;
-	background-image: url(recipes-all.jpg);
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.all:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
 section.view-recipes aside .content.cuisine {
+	background: linear-gradient(to top, transparent, #73626B), url(recipes-cuisine.jpg);
 	background-size: cover;
-	background-image: url(recipes-cuisine.jpg);
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.cuisine:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
 section.view-recipes aside .content.course {
+	background: linear-gradient(to top, transparent, #73626B), url(recipes-course.jpg);	
 	background-size: cover;
-	background-image: url(recipes-course.jpg);
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section.view-recipes aside .content.course:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
 section.view-recipes aside .content.favourite {
+	background: linear-gradient(to top, transparent, #73626B), url(recipes-favourite.jpg);		
 	background-size: cover;
-	background-image: url(recipes-favourite.jpg);
 	padding: 0 0 300px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -297,14 +295,17 @@ section.favourite-websites {
 	margin-bottom: 30px;
 	padding: 15px;
 	background-color: #F0E9DE;
-	/*background-image: linear-gradient (#38CA47, #86FF92);*/
 }
 
 section.favourite-websites aside {
-	width: 33%;
+	width: 20%;
 	float: left;
 	text-align: center;
 	background-color: #F0E9DE;
+}
+
+section.favourite-websites aside .container { 
+	padding: 2px 16px;
 }
 
 section.favourite-websites aside h2 a { color: #000; text-decoration: none; }
@@ -316,14 +317,17 @@ section.favourite-websites aside h3 a:hover { text-decoration: underline; }
 section.favourite-websites aside .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 2% 5%;
-	padding: 0;
 }
 
 section.favourite-websites aside .card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
-section.favourite-websites aside .card img { width: 100%; height: 600px;}
+section.favourite-websites aside .card img { 
+	width: 100%; 
+	height: 300px;
+	/*margin: 0 30px 0 30px;*/
+}
 
-section.favourite-websites aside .container { padding: 2px 16px; }
+
 
 section.favourite-websites a.btn { margin-top: 680px; }
 
@@ -347,7 +351,7 @@ section.favourite-websites aside .content.olive { background-image: url(olivemag
 section.favourite-websites aside .content.cookie { background-image: url(cookieandkate.jpg); padding: 0 0 100px 0; }*/
 
 
-/* Section - All Recipes
+/* PAGE - All Recipes
 ----------------------------------*/
 
 section.all-recipes .recipe-container {
@@ -365,6 +369,7 @@ section.all-recipes img {
 	border-radius: 4px;
 	box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
 	overflow: hidden;
+	margin: 0 30px 0 0;
 }
 
 
@@ -380,7 +385,6 @@ section.all-recipes .recipe-content {
 
 section.all-recipes .recipe-content h3 {
 	/*position: relative;*/
-	left: 318px;
 	top: 0px;
 	color: #000;
 	font-size: 2em;
