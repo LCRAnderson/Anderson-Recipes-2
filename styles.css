@@ -302,6 +302,10 @@ section.favourite-websites aside {
 	float: left;
 	text-align: center;
 	background-color: #F0E9DE;
+	padding: 15px 35px;
+
+
+
 }
 
 section.favourite-websites aside .container { 
@@ -329,7 +333,7 @@ section.favourite-websites aside .card img {
 
 
 
-section.favourite-websites a.btn { margin-top: 680px; }
+section.favourite-websites a.btn { margin-top: 400px; }
 
 
 /*section.favourite-websites .content {
