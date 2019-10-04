@@ -353,7 +353,6 @@ section.favourite-websites-page aside .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 	margin: 2% 5%;
 }
-
 section.favourite-websites-page aside .card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19) }
 
 section.favourite-websites-page aside .card img { 
@@ -367,14 +366,20 @@ section.favourite-websites-page aside .website-info {
 
 section.favourite-websites-page aside .website-info h3 { 
 	color: #000;
+	display: inline-block;
+	font: 1em;
 }
 
 section.favourite-websites-page aside .website-info img {
-	height: 35px;
+	height: 30px;
 	width: auto;
+	right: 10px;
+	bottom: 10px
 }
 
-section.favourite-websites-page a.btn { margin-top: 400px; }
+section.website-btn a.btn { 
+	margin: 0 0 20px 0;
+}
 
 
 /* PAGE - All Recipes
